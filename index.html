@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Command & Conquer (DOS)</title>
+  <script src="https://js-dos.com/6.22/current/js-dos.js"></script>
+  <style>
+    body {
+      background: black;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #dos {
+      width: 640px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div id="dos"></div>
+
+  <script>
+    Dos(document.getElementById("dos"), {
+      url: "CNC_WORK/"
+    });
+  </script>
+</body>
+</html>

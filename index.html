@@ -25,15 +25,17 @@
   <h1>Command & Conquer</h1>
   <div id="dos"></div>
 
+
+
 <script>
   window.onload = function () {
-    const dos = Dos(document.getElementById("dos"), {
+    Dos(document.getElementById("dos"), {
+      url: "cc_gdi_novid.jsdos",
       wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js"
     });
-
-    dos.run("cc_gdi_novid.jsdos");
   };
 </script>
+
 
 </body>
 </html>
